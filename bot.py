@@ -21,7 +21,7 @@ import aiohttp
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 from PIL import Image
-from core.ffmpeg import vidmark
+from core.ffmpeg import *
 from core.clean import delete_all, delete_trash
 from pyrogram import Client, filters
 from configs import Config
